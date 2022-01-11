@@ -1,0 +1,502 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-color: #01012b;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 400vw;
+    display: flex;
+}
+.main section {
+    /* padding: 10px 0; */
+    height: 100%;
+    width: 100vw;
+    background-color: #01012b;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.animation {
+    /* margin-left: 2%; */
+    height: 90%;
+    /* width: 25%; */
+}
+.container {
+    min-width: 90%;
+    margin: 0 auto;
+}
+#salute {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#myname {
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+#gift {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    /* margin-left: 30%; */
+    width: 100%;
+}
+
+#giftOpen {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: -480px;
+    width: 100%;
+}
+#skills {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: -280px;
+}
+#skillsTwo {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: -200px;
+}
+.one {
+    margin-left: -5px;
+} 
+.two {
+    margin-left: -150px;
+} 
+.three {
+    margin-left: -160px;
+}
+.four {
+    margin-left: -180px;
+}
+.five {
+    margin-left: -5px;
+}
+.six {
+    margin-left: -120px;
+} 
+.seven {
+    margin-left: -140px;
+}
+.eight {
+    margin-left: -160px;
+}
+
+#canvas{
+    width: 100vw;
+    height: 100%;
+    margin-top: -2000px;
+}
+section.myinfo { 
+    font-family: 'Bona Nova', serif;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* align-items: center; */
+}
+
+#par {
+    width: 90vw;
+    /* height: 100%; */
+    display: flex;    
+    justify-content: space-evenly; 
+    /* border-radius: 60% 0; */
+    /* box-shadow: inset  -10px -5px 15px 10px rgba(34, 34, 34, 0.829), 2px 4px 15px 23px rgba(247, 240, 137, 0.657); */
+    /* animation: mymove 10s infinite; */
+}
+/* @keyframes mymove {
+    50% {box-shadow: inset  -10px -5px 15px 10px rgba(34, 34, 34, 0.829), 2px 4px 15px 23px rgba(247, 240, 137, 0.657);}
+} */
+#welcome {
+    display: flex; 
+    flex-direction: column;   
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.welcome {    
+    /* margin: 5% 5%; */
+    width: 600px;    
+    color: #fadd8c;
+    font-family: 'Bona Nova', serif; 
+    font-size: 30px;   
+}
+.about { 
+    margin: 2% 1%;   
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutme {
+    color: #fadd8c;
+    font-family: 'Bona Nova', serif;  
+    font-size: 23px;
+    width: 75%;
+    margin-left: -30px;
+}
+.flag {
+    display: flex;
+    flex-direction: column; 
+    justify-content:center;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+.photo {
+    margin-left: 180px;
+    margin-top: 90px;
+}
+.photoflag {
+    margin-top: -60px; 
+}
+
+
+.textCont {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+.linkpic {
+    color: #0edb3b;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.footerpic {
+    color: rgb(255, 47, 134);
+    padding: 5px;
+    text-decoration: none;
+}
+.linkpic:hover, .footerpic:hover {
+    color: #7bfa96;
+}
+.applications, .websites {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 600px;
+    width: 90%;
+}
+.imgapplications, .imgwebsites {
+    height:2px;
+}
+.app, .sites {
+    justify-self: flex-start;
+    background: linear-gradient(to left, #c4c988, #553f1b, #f5f2cd);    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Bona Nova', serif;
+    font-size: 60px;
+}
+h2:hover, h1:hover, .imggh:hover {
+    background: linear-gradient(to left, #a89d8b, #e4ee8b, #c4b194);    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 8px 6px 16px #f5f2cd;
+} 
+.list { 
+    align-self: flex-end;  
+    background: linear-gradient(to bottom, #c4c988, #a17e56, #f5f2cd);    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+.toapp, .toweb {
+    text-decoration: none;  
+    font-weight: bold; 
+    font-family: 'Bona Nova', serif;
+}
+.imggh {
+    transform: rotate(90deg);    
+}
+
+.notes, .relax, .search, .fortune, .weather, .christmas, .github, .invitation, .split, .fitness, .photogr, .bakery, .company {
+    font-size: 65px;
+    margin-left: 25px;
+    text-decoration: none;
+} 
+.quiz, .game {
+    font-size: 61px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+#imgquiz, #imggame, #imgnotes, #imgrelax, #imgsearch, #imgfortune, #imgweather, #imgchristmas, #imggithub, #imginvit, #imgsplit, #imgbakery, #imgphotogr, #imgcompany, #imgfitness { 
+    display: none;
+}
+hr {
+    border-top: hidden;
+    border-bottom: .5px solid #fadd8c;
+}
+footer {
+    height: 8%;
+    width: 100vw;
+}
+#rowfooter {
+    color: rgb(255, 47, 134);
+    font-family: 'Bona Nova', serif;
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* iPad Pro (1024)*/
+@media all and (max-width: 1050px) {
+    body {
+        visibility: hidden;
+    }
+    #myname {
+        margin-left: 8%;
+    }
+    .letter {
+        height: 160px;
+    }
+    .myletters {
+        height: 130px;
+    }
+    #gift {
+        margin-top: 90px; 
+        margin-left: 20%;
+    }    
+    #giftOpen {
+        margin-top: -400px;
+        margin-left: 20%;
+    }
+    .presentOne {
+        width: 350px;
+    }
+    .presentTwo {
+        width: 600px;
+    }
+    #skills {
+        width: 18%;
+        margin-left: 50%;
+        margin-top: -300px;
+    }
+    #skillsTwo {
+        width: 18%;
+        margin-left: 50%;
+        margin-top: -220px;
+    }
+    section.myinfo {
+        background-position-x: center;
+        background-position-y: center;
+        margin-top: 280px;
+        margin-left: 10%;
+        height: 700px;
+        width: 92%; 
+    }
+    .aboutme {
+        font-size: 27px;
+        width: 510px; 
+        color:rgb(197, 10, 10);
+    }
+    .photo {
+        width:200px;
+    }
+
+}
+/* iPad (768)*/
+@media all and (max-width: 760px) {
+    body {
+        width: 760px;
+    }
+    #myname {
+        margin-left: 5%;
+    }
+    .letter {
+        height: 120px;
+    }
+    .myletters {
+        height: 70px;
+    }
+    #canvas {
+        margin-left: 20%;
+    }
+    #salute {
+        width: 100%;
+    }
+    #myletters {
+        width: 100%;
+    }
+    section.animation {
+        width: 100%;
+    }
+    section.myinfo { 
+        background-position-x: center;
+        background-position-y: center;
+        margin-top: 260px;
+        margin-left: 10%;
+        height: 700px;
+        width: 95%;
+    }
+    .aboutme {
+        font-size: 20px;
+        width: 300px; 
+        color:rgb(197, 10, 10);
+    }
+    .photo {
+        width: 180px;
+    }
+    .about {    
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .textCont {
+        flex-direction: row;
+        /* justify-content: flex-end;
+        align-items: flex-end; */
+    }
+    .linkpic {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+/* Surface Duo (540) */
+@media all and (max-width: 550px) {
+    body {
+        width: 200vh;
+    }
+    section.animation {
+        width: 100%;
+    }
+    .letter {
+        height: 190px;
+    }
+    .myletters {
+        height: 160px;
+    }
+    #gift {
+        margin-top: 90px; 
+        margin-left: 15%;
+    }    
+    #giftOpen {
+        margin-top: -400px;
+        margin-left: 11%;
+    }
+    .aboutme {
+        font-size: 25px;
+        width: 900px; 
+        color:rgb(197, 10, 10);
+    }
+    .about {    
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .textCont {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .photo {
+        width: 230px;
+    }
+}
+
+/* iPhone 6/7/8 Plus (414),
+Pixel 2 XL (411 ???), Pixel 2 (411)*/
+@media all and (max-width: 420px) {
+    .photo {
+        width: 200px;
+    }
+    .aboutme {
+        font-size: 25px;
+        width: 700px; 
+        color:rgb(197, 10, 10);
+    }
+}
+
+/* iPhone X (375), iPhone 6/7/8 (375 ???) */
+@media all and (max-width: 380px) {
+    body {
+        width: 180vh;
+    }
+    section.animation {
+        width: 100%;
+    }
+}
+
+/* Galaxy S5 (360),
+Moto G4 (360)*/
+@media all and (max-width: 370px) {
+    .photo {
+        width: 200px;
+    }
+    .aboutme {
+        font-size: 25px;
+        width: 600px; 
+        color:rgb(197, 10, 10);
+    }
+}
+
+/* iPhone 5/SE */
+@media all and (max-width: 320px) {
+    body {
+        width: 170vh;
+    }
+    section.animation {
+        width: 100%;
+    }
+    .letter {
+        height: 160px;
+    }
+    .myletters {
+        height: 120px;
+    }
+    .aboutme {
+        font-size: 25px;
+        width: 500px; 
+    }
+}
+
+/* Galaxy Fold (280) */
+@media all and (max-width: 290px) {
+    section.animation {
+        width: 90%;
+    }
+    section.myinfo {         
+        margin-top: 200px;
+        margin-left: 2%;
+        height: 700px;
+        width: 90%;
+    }
+    .aboutme {
+        font-size: 25px;
+        width: 600px; 
+    }
+}
+
+
+
+
+
+
+
