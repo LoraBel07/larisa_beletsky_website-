@@ -264,6 +264,11 @@ footer {
     justify-content: space-evenly;
 }
 
+#clstr_globe {
+    width:5%;
+    height: auto;
+}
+
 
 /* iPad Pro (1024)*/
 @media all and (max-width: 1050px) {
